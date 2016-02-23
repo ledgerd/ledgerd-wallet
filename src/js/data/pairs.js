@@ -8,6 +8,7 @@
  */
 
 var DEFAULT_PAIRS = [
+  {name: 'XRP/CNY.Ledgerd', last_used:10},
   {name: 'XRP/USD.SnapSwap', last_used: 10}
   // {name: 'XAU (-0.5%pa)/XRP', last_used: 2},
   // {name: 'XAU (-0.5%pa)/USD', last_used: 2},
