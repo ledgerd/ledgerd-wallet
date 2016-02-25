@@ -128,8 +128,8 @@ nav.navbar(role="navigation", ng-controller="NavbarCtrl", ng-cloak)
       ul(ng-show="$route.current.mainMenu == 'exchange' || $route.current.mainMenu == 'trade'")
         li(ng-class="{active: $route.current.tabName == 'exchange'}", ng-hide="readOnly")
           a(href="#/exchange", l10n) Simple
-        //li(ng-class="{active: $route.current.tabName == 'trade'}")
-        //  a(href="#/trade", l10n) Advanced
+        li(ng-class="{active: $route.current.tabName == 'trade'}")
+          a(href="#/trade", l10n) Advanced
   .subnav(ng-show="invalidRegularWallet && !readOnly")
     .container
       .row
