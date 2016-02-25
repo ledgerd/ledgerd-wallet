@@ -3,7 +3,7 @@
         "name": "Ledgerd",
         "accounts": [{
             "address": "rEDQGsaPTNKMp9JomYhKsVS7VCjSaGaPWu",
-            "currencies": ["CNY", "CNF"],
+            "currencies": ["CNY", "LGD"],
             "hotwallets": ["r4AULAPvfiewfHf6ut6uqpmmQ5C4RekAwA","rhpKCGNh2euH7Cr1Bv1ewW4F8QSKvYPAeJ"]
         }],
         "domain": "cinapay.com"
