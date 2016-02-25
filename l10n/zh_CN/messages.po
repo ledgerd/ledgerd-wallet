@@ -2279,3 +2279,15 @@ msgstr "发自地址："
 msgid ""
 "Sorry, we don't have an info page layout for this transaction type yet."
 msgstr "不好意思，这类交易的信息页面还没有准备好。"
+
+#: src/templates/client:19
+msgid "Trust Lines"
+msgstr "信任线"
+
+#: src/templates/tabs/trust:278
+msgid "Add trust line"
+msgstr "添加信任线"
+
+#: src/jade/client/navbar.jade:126
+msgid "Simple"
+msgstr "简单"

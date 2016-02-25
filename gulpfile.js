@@ -200,7 +200,7 @@ gulp.task('gitVersion', function (cb) {
 
 // Preprocess
 gulp.task('preprocess:dev', function() {
-  return gulp.src(TMP_DIR + 'templates/en/index.html')
+  return gulp.src(TMP_DIR + 'templates/zh_CN/index.html')
     .pipe($.preprocess({
       context: {
         MODE: 'dev',
@@ -213,7 +213,7 @@ gulp.task('preprocess:dev', function() {
 });
 
 gulp.task('preprocess:dist', function() {
-  return gulp.src(BUILD_DIR + 'templates/en/index.html')
+  return gulp.src(BUILD_DIR + 'templates/zh_CN/index.html')
     .pipe($.preprocess({
       context: {
         MODE: 'dist',
@@ -240,10 +240,11 @@ gulp.task('templates:dev', function () {
     }))
 
     .pipe($.jade({
-      jade: jade,
+      jade: jadeL10n,
+      languageFile: 'l10n/zh_CN/messages.po',
       pretty: true
     }))
-    .pipe(gulp.dest(TMP_DIR + 'templates/en'))
+    .pipe(gulp.dest(TMP_DIR + 'templates/zh_CN'))
 });
 
 var languageTasks = [];
@@ -295,7 +296,7 @@ gulp.task('default', function() {
   gulp.watch(['src/templates/**/*.jade'], ['templates:dev']);
 
   // index.html preprocessing
-  $.watch(TMP_DIR + 'templates/en/*.html', function(){
+  $.watch(TMP_DIR + 'templates/zh_CN/*.html', function(){
     gulp.start('preprocess:dev');
   });
 
