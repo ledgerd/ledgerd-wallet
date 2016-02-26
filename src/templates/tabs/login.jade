@@ -8,7 +8,7 @@ section.col-xs-12.content(ng-controller="LoginCtrl")
         li(ng-class="{active: mode=='readOnly'}")
           a(href="", ng-click="mode='readOnly'", l10n) Read Only Mode
         li(ng-class="{active: mode=='coldwallet'}")
-          a(href="", ng-click="mode='coldwallet'" l10n) Cold Wallet
+          a(href="", ng-click="mode='coldwallet'", l10n) Cold Wallet
         li(ng-class="{active: mode=='submittxn'}")
           a(href="#/submit", ng-click="mode='submittxn'",l10n) Submit Txn
         li(ng-class="{active: mode=='serversettings'}")
