@@ -46,14 +46,14 @@ module.controller('NavbarCtrl', ['$scope', '$element', '$compile', 'rpId',
     }
   }
 
-  $scope.copyTooltip = "Click to copy your ripple address";
+  $scope.copyTooltip = "单击复制此钱包地址";
   $scope.copyFeedback = null;
   $scope.copy = function() {
     angular.element("ul.nav .text-copy-helper").select();
     document.execCommand('copy');
     $("li.account").popover('hide');
     $("li p.navbar-text").fadeOut(100, function() {
-      $scope.copyFeedback = "Copied!";
+      $scope.copyFeedback = "已复制!";
       if(!$scope.$$phase) $scope.$apply();
     }).fadeIn(300, function() {
       setTimeout(function() {

@@ -2291,3 +2291,133 @@ msgstr "添加信任线"
 #: src/jade/client/navbar.jade:126
 msgid "Simple"
 msgstr "简单"
+
+#: src/templates/tabs/login.jade:7
+msgid "Open Account"
+msgstr "打开账户"
+
+#: src/templates/tabs/login.jade:9
+msgid "Read Only Mode"
+msgstr "只读模式"
+
+#: src/templates/tabs/login.jade:11
+msgid "Cold Wallet"
+msgstr "冷钱包"
+
+#: src/templates/tabs/login.jade:13
+msgid "Submit Txn"
+msgstr "提交Txn"
+
+#: src/templates/tabs/login.jade:15
+msgid "Server Settings"
+msgstr "服务器设置"
+
+#: src/jade/client/index.jade:32 src/jade/tabs/advanced.jade:9
+msgid "|  Settings"
+msgstr "| 设置"
+
+#: src/jade/client/navbar.jade:101
+msgid "{{1}} Settings"
+msgstr "{{1}} 设置"
+
+#: src/jade/client/navbar.jade:105
+msgid "{{1}} Log Out"
+msgstr "{{1}} 登出"
+
+#: src/jade/tabs/advanced.jade:78
+msgid "Network settings"
+msgstr "网络设置"
+
+#: src/jade/tabs/advanced.jade:80
+msgid "Maximum network fee"
+msgstr "最大网络费"
+
+#: src/jade/tabs/advanced.jade:96
+msgid "Server settings"
+msgstr "服务器设置"
+
+#: src/jade/tabs/advanced.jade:101
+msgid "WebSocket host name"
+msgstr "WebSocket主机名"
+
+#: src/jade/tabs/advanced.jade:103
+msgid "Port number"
+msgstr "端口号"
+
+#: src/jade/tabs/advanced.jade:109
+msgid "Socket ip or hostname is invalid."
+msgstr "套接字ip或主机名错误."
+
+#: src/jade/tabs/advanced.jade:111
+msgid "Port number is invalid."
+msgstr "端口号错误."
+
+#: src/jade/tabs/advanced.jade:118 src/jade/tabs/advanced.jade:131
+msgid "Secure"
+msgstr "安全"
+
+#: src/jade/tabs/advanced.jade:132
+msgid "Not Secure"
+msgstr "不安全"
+
+#: src/jade/tabs/advanced.jade:138
+msgid "Add new server"
+msgstr "增加服务器"
+
+#: src/jade/tabs/settingstrade.jade:12
+msgid "Trade settings"
+msgstr "交易设置"
+
+#: src/jade/tabs/trade.jade:31 src/jade/tabs/widgets/markets.jade:24
+msgid "flip"
+msgstr "交换"
+
+#: src/jade/tabs/trade.jade:34
+msgid "add pair"
+msgstr "添加交易对"
+
+#: src/jade/tabs/trade.jade:37
+msgid "edit pairs"
+msgstr "编辑交易对"
+
+#: src/jade/tabs/trade.jade:41
+msgid "Base Currency"
+msgstr "基础货币"
+
+#: src/jade/tabs/trade.jade:44
+msgid "Base Gateway"
+msgstr "基础网关"
+
+#: src/jade/tabs/trade.jade:49
+msgid "Counter Currency"
+msgstr "对比货币"
+
+#: src/jade/tabs/trade.jade:52
+msgid "Counter Gateway"
+msgstr "对比网关"
+
+#: src/jade/tabs/trade.jade:57
+msgid "Add"
+msgstr "添加"
+
+#: src/jade/tabs/trade.jade:57
+msgid "Counterparty Address"
+msgstr "订约方地址"
+
+msgid "Counterparty"
+msgstr "订约方"
+
+msgid "Limit"
+msgstr "金额上限"
+
+msgid "Set Authorization"
+msgstr "授权设置"
+
+msgid "Security settings"
+msgstr "安全设置"
+
+msgid "Secret key"
+msgstr "主密钥"
+
+msgid "Regular Key"
+msgstr "常用密钥"
