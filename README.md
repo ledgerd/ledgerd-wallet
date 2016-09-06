@@ -3,7 +3,7 @@
 
 ##开发环境
 - Windows 10
-- nodejs 4.2.6
+- nodejs 4.2.6 node-webkit angularjs
 - python 2.7.11
 - Visual Studio 2015
 - WebStorm 10.0.4
